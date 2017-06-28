@@ -228,21 +228,23 @@ input[type=submit] {
 }
 
 /*980*/
+/*having issues holding the logo and nav bar when increased past 980px*/
+
+@media screen and (min-width:980px){
+  #masthead {
+      position:static;
+      margin:0;
+  }
+}
+
 @media screen and (min-width:980px){
   #logo{
       margin-left:115px;
-  }
 
-}
-
-
-@media screen and (min-width:980px){
-  #main-container{
-      width:420px;
-      float:left;
-      margin-left: 125px;
   }
 }
+
+
 
 @media screen and (min-width: 980px){
   .auth-image{
@@ -250,16 +252,75 @@ input[type=submit] {
     height: auto;
 }
 }
-
+@media screen and (min-width: 980px){
+  .container{
+}
+}
 @media screen and (min-width: 980px){
   nav a{
     margin-top:10px;
     line-height: 2.5em;
+    margin-right:50px;
+    padding:0;
   
   }
 }
 
+/*connect*/
 
+@media screen and (min-width: 980px){
+  #connect{
+    max-width: 300px;
+
+  }
+}
+
+@media screen and (min-width: 980px){
+ .sidebar{
+    max-width: 300px;
+    float:right:
+    padding-right: 10px;
+    position: relative;
+ } 
+}
+
+@media screen and (min-width: 980px){
+ #connect{
+    width: 100%;
+    float:left;
+    text-align:center;
+ } 
+}
+
+/*header and main-container*/
+
+@media screen and (min-width: 980px) {
+
+.main-section{
+    margin-right:20px;
+    max-width: 420px;
+}
+}
+
+@media screen and (min-width:980px){
+  #main-container{
+      width:800px;
+      float:left;
+      margin-left: 125px;
+      padding-top: 25px;
+      padding-left: 10px;
+      margin-left:115px;
+      position: ;
+}
+}
+
+@media screen and (min-width:980px){
+  .work{
+    width:350px;
+  }
+}
+/**********************************************************/
+/**********************************************************/
 /*this is the start of 768px*/
 /*logo and nav bar*/
 @media screen and (max-width: 768px) and (min-width:641px){
@@ -352,6 +413,8 @@ input[type=submit] {
 
 /*end of 768px*/
 
+/**********************************************************/
+/**********************************************************/
 /*640 width This is for landscape form*/
 
 /*logo and nav bar*/
