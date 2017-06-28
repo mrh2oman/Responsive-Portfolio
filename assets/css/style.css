@@ -322,6 +322,12 @@ input[type=submit] {
 }
 /**********************************************************/
 /**********************************************************/
+
+@media screen and (min-width: 769px) and (max-width:979px){
+  nav a{
+    padding-right:50px;
+  }
+}
 /*this is the start of 768px*/
 /*logo and nav bar*/
 @media screen and (max-width: 768px) and (min-width:641px){
